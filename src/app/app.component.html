@@ -1,0 +1,11 @@
+<mat-toolbar color="warn">
+  <a routerLink="home" mat-raised-button *ngIf="isLogin">HOME</a>
+  <a routerLink="user" mat-raised-button class="x" *ngIf="isUser || isAdmin">USER</a>
+  <a routerLink="admin" mat-raised-button class="x" *ngIf="isAdmin">ADMIN</a>
+  <a routerLink="employee" mat-raised-button class="x" *ngIf="isUser || isAdmin || isEmployee">EMPLOYEE</a>
+  <span class="example-spacer"></span>
+  <a routerLink="" mat-raised-button class="x" color="primary" *ngIf="!isLogin">LOGIN</a>
+  <a routerLink="register" mat-raised-button class="x" *ngIf="!isLogin">REGISTER</a>
+  <button mat-raised-button color="primary" class="x" (click)="logout()" *ngIf="isLogin">Logout</button>
+</mat-toolbar>
+<router-outlet></router-outlet>
