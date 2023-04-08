@@ -6,6 +6,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `https://role-base-auth.vercel.app`. The application will automatically reload if you change any of the source files.
 
+## Deployment PlatForm
+
+  -> This application was deployed in Vercel
+  
+  -> Json Server (Db.json) is not deployed in any server.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
