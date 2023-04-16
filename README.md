@@ -4,7 +4,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `https://role-base-auth.vercel.app`. The application will automatically reload if you change any of the source files.
+
+  Deployment PlatForm
+  
+        -> This application was deployed in Vercel
+        -> Json Server (Db.json) is not deployed in any server. You can only view the front end of this application, you will not able to see the functionality of this application because this application Json server is not deployed yet.
 
 ## Code scaffolding
 
@@ -25,3 +30,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+#### Deployed link [CLICK HERE TO VIEW APPLICATION](https://role-base-auth.vercel.app)
