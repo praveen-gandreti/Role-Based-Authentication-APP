@@ -27,13 +27,6 @@
       "password": "zx123",
       "role": "user",
       "id": 4
-    },
-    {
-      "username": "rasool",
-      "email": "ras@gmail.com",
-      "password": "rasool",
-      "role": "",
-      "id": 5
     }
   ]
 }
